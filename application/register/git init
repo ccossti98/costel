@@ -1,0 +1,4 @@
+git init 
+git clone "link to github repo"
+cd EneredMay
+git checkout projectCostel

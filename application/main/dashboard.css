@@ -1,0 +1,373 @@
+@media (min-width: 768px) {
+	.container-small {
+		width: 600px;
+	}
+}
+@media (min-width: 992px) {
+	.container-small {
+		width: 650px;
+	}
+}
+@media (min-width: 1100px) {
+	.container-small {
+		width: 750px;
+
+	}
+}
+
+body{
+	position: relative;
+}
+
+.container-small{
+	padding-top: 70px;
+}
+
+
+.textAreaCuriosity {
+    text-align: center;
+    padding: 200px 200px;
+    background: grey;
+}
+
+.container-fluid{
+    height:60px;
+
+}
+
+ .fa-user-circle-o{
+  font-size: 20px;
+}
+
+
+.bigButton{
+	color: white;
+	font-weight: bold;
+	border-radius: 50%;
+	border: 1px solid white;
+	cursor:pointer;
+	position: relative;
+}
+
+
+.navBarColor{
+	background-color: #242b3f;
+	height: 40px;
+	position: fixed;
+	top: 0px;
+	
+}
+
+.navbar{
+	border-radius: 0px;
+	position: relative;
+	position: fixed;
+	top: 0px;
+    width: 100%;
+}
+
+/*#startPlay{
+	border-radius: 50%;
+	padding: 10px;
+	border: 3px solid white;
+	margin-top: 7px;
+	outline: none;
+	background-color: #008CBA;
+	color: white;
+}
+*/
+.text-center{
+	width: 50px;
+	position: absolute;
+	left: calc(50% - 25px);
+}
+
+
+
+
+.fa-caret-down{
+	font-size: 20px !important;
+	padding-left: 5px;
+	position: absolute;
+	padding-top: 15px;
+}	
+
+
+.list-group-item{
+	background-color: white; 
+	border: none;
+	color: black;
+}
+
+.goBig{
+	font-size: 5px 0px;
+}
+
+
+
+.navbar-brand{
+	color: white;
+	font-size: 30px;
+	padding-bottom: 0px;
+	padding-left: 160px !important;
+}
+
+
+.dropdown-menu{
+	background-color: white;
+	position: fixed;
+	top: 49px;
+	right: 69px;
+}
+
+.dropdown{
+	margin-right:40px;
+}
+
+
+.curiosityText{
+   padding: 20px 50px;
+   color: white;
+   font-size: 20px;
+	
+}
+
+.text{
+	background-color: #242b3f;
+	height: 100px;
+
+}
+
+.icons{
+	height: 30px;
+	background-color: #242b3f;
+	border-top: 1px solid grey;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	cursor:pointer;
+}
+.img{
+	width: 100%;
+}
+.category{
+	color: black;
+	font-size: 25px;
+	padding-bottom: 0px;
+}
+.curiosity{
+	padding-bottom: 50px;
+	border-bottom: 2px solid grey;
+}
+
+.curiosityText{
+	text-align: center;
+}
+.comment-textarea {
+	resize: none;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.size{
+	font-size: 20px !important;
+}
+
+.register{
+	background-color: #242b3f;
+	border-radius: 5px;
+	border: 1px solid white;
+	color: white;
+	padding: 4px 10px;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-right: 80px;
+	outline: none;
+}
+
+.navbar-nav>li>a.desktop-menu-icon{
+	padding: 0;
+	padding-top: 3px;
+}
+
+.submitButton{
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: white;
+	font-size: 17px;
+	background-color: #242b3f;
+}
+
+.login{
+	background-color: #242b3f;
+	border-radius: 5px;
+	border: 1px solid white;
+	color: white;
+	padding: 4px 10px;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-right: 20px;
+	outline:none;
+}
+
+.navbar-right .dropdown-menu{
+	position: fixed;
+	right: 147px;
+}
+
+.nav>li {
+	display: inline-block;
+}
+.sidebar {
+    position:fixed;
+    top: 93px;
+    left:25px; 
+}
+
+.category-item{
+	color: grey;
+	font-weight: bold;
+}
+
+.item{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	cursor:pointer;
+	width: 120px;
+	position: relative;
+}
+
+.bigBox{
+	height: 150px;
+	width: 100%;
+	position: relative;
+}
+
+.bigBox.animals{
+	background-image: url("https://onehdwallpaper.com/wp-content/uploads/2015/07/Free-Download-Beautiful-Animals-Pictures.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bigBox.math{
+	background-image: url("http://competitionmaths.net/wp-content/uploads/2018/11/math.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bigBox.psychology{
+	background-image: url("http://study.com/cimages/course-image/psychology-312-history-and-systems-of-psychology_438269_large.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.img4{
+	background-image: url("https://brewminate.com/wp-content/uploads/2017/01/OriginsPhilosophy01.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.img5{
+	background-image: url("https://thought-leadership-production.s3.amazonaws.com/2016/10/28/14/29/18/d9cc4e0b-ba5c-44b6-9b4d-5feffab18b26/tnc_56094809_preview_cropped.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.img6{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4SVV94VoRKW2lg-m6DzagYLx9BXb1JSMfEsQffCOwkZO-dFrq");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.img7{
+	background-image: url("https://targetcareers.co.uk/sites/targetcareers.co.uk/files/public/styles/header_1500x550/public/field/image/how-do-i-get-into-science.jpg?itok=5sA8ANId");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.square{
+	width: 30px;
+	height: 30px;
+
+}
+
+
+.animals{
+	border: none;
+	outline: none;
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/01a6oga3DbL.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.math{
+	border: none;
+	outline: none;
+	background-image: url("https://previews.123rf.com/images/suljo/suljo1001/suljo100100016/6238548-ilustraci%C3%B3n-de-fondo-transparente-de-matem%C3%A1ticas-y-geometr%C3%ADa.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 30px;
+}
+
+.psychology{
+	border: none;
+	outline: none;
+	background-image: url("https://www.payh.org/wp-content/uploads/2016/01/SFTD-01-07-2016-Feature.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -6px;
+}
+
+.philosophy{
+	border: none;
+	outline: none;
+	background-image: url("http://2.bp.blogspot.com/_5UDR8VzREF4/SXf3wRDjofI/AAAAAAAAAhA/YoTqHQTtq_s/s320/hp.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.universe{
+	border: none;
+	outline: none;
+	background-image: url("https://www.ambientum.com/wp-content/uploads/2018/12/universo-galaxia.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -8px;
+}
+
+.nature{
+	border: none;
+	outline: none;
+	background-image: url("https://i.ytimg.com/vi/f7GzJBAIhRk/maxresdefault.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.science{
+	border: none;
+	outline: none;
+	background-image: url("https://image.freepik.com/free-photo/science_1048-4662.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.goTop{
+	display: inline-block;
+    position: absolute;
+    bottom: 18px;
+    padding-left: 5px;
+}
+
+.goDown{
+	position: absolute;
+	top: 100px;
+	left: 15px;
+	color: white;
+	font-size: 28px;
+
+}
+
+

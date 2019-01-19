@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/style.css">
+	<link rel="stylesheet" type="text/css" href="register.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div class="main-image">
+	     <div class="register-form"> 
+            <h2>Register</h2>  
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Username" id="username">
+				<div class="error">Error message</div>
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Email" id="email">
+				<div class="error">Adresa de email nu este asociata niciunui cont.</div>
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" placeholder="Password" id="password">
+				<div class="error">Parola pe care ai introdus-o este incorecta.</div>
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" placeholder="Retype password" id="password2">
+				<div class="error">Parola pe care ai introdus-o este incorecta.</div>
+			</div>		
+            <button id="register">Register</button>
+            <button id="goToSignIn">Go To Sign In</button>
+	     </div>       
+    
+	     <div class="signIn-form displayNone"> 
+	            <h2>Sign In</h2>  			
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Email" id="email">
+				<div class="error">Adresa de email nu este asociata niciunui cont.</div>
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" placeholder="Password" id="password">
+				<div class="error">Parola pe care ai introdus-o este incorecta.</div>
+			</div>	
+	            <button id="signin">Sign In</button>
+	            <button id="goToRegister">Go To Register</button>
+	     </div>       
+    </div>
+
+
+	
+
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="register.js"></script>
+</body>
+</html>

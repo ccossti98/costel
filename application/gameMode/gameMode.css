@@ -1,0 +1,21 @@
+.fiftyfifty{
+	border: 1px solid green;
+	padding: 15px 25px 3px 4px; 
+	background-color: #008CBA;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	position: relative;
+	width: 90px;
+    
+
+}
+
+
+.price{
+	position: absolute;
+	top:3px;
+	right:10px;
+	color: whit
+}

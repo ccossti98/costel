@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-image{
+	background-color: #242b40;
+	width: 100%;
+	height: 788px;
+	background-size:cover;
+	background-repeat: no-repeat; 
+	position: relative;
+	background-position: center;
+
+}
+
+.register-form{
+	width: 400px;
+	height:400px;
+	position: absolute;
+	top: 140px;
+	left: calc(50% - 200px);
+	background-color: white;
+	border-radius: 10px;
+	opacity: 0.8;
+	padding: 50px 50px;
+}
+
+.signIn-form {
+    width: 400px;
+	height:330px;
+	position: absolute;
+	top: 170px;
+	left: calc(50% - 200px);
+	background-color: white;
+	border-radius: 10px;
+	opacity: 0.8;
+	padding: 50px 50px;
+}
+
+#register,#signin{
+	position:absolute;
+	left: 20%;
+	margin-top: 30px;
+	background-color:white;
+	border-radius: 5px;
+	color: black;
+	padding: 5px 10px;
+	opacity:0.8;
+
+}
+
+#goToSignIn,#goToRegister{
+	position:absolute;
+	left: 55%;
+	margin-top: 30px;
+	background-color:white;
+	border-radius: 5px;
+	color: black;
+	padding: 5px 10px;
+	opacity:0.8;
+}
+
+.top{
+	margin-top: 40px;
+	margin-left: 60px;
+
+}
+
+input[type=text]{
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+input[type=password]{
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.form-group{
+	
+	position: relative;
+	
+	
+}
+
+.input-error{
+	color: red;
+}
+
+.error{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e6005c;
+    transform: translateX(110%);
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.has-error .error {
+	visibility: visible;
+	animation: mymove 5s forwards;
+}
+
+
+@keyframes mymove {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+.displayNone{
+	display: none;
+}
+
+h2{
+	text-align: center;
+	padding: 10px 0px;
+	margin-top: 0;
+}

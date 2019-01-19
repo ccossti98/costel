@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/style.css">
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	
+	
+	<nav class="navbar navBarColor">
+	    <div class="container-fluid">   	
+	        <div class="navbar-header">
+	            <a class="navbar-brand" href="dashboard.html">FACTS</a>
+	        </div>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown dropdown2">
+					<a href="#" class="dropdown-toggle desktop-menu-icon" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o fa-3x" style="color: white;" aria-hidden="true"><i class="fa fa-caret-down down" aria-hidden="true"></i></i></span></a>
+					<ul class="dropdown-menu dropdown-menu2">
+						<li><a href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
+			            <li><a href="#"><i class="fa fa-heart fa-fw" aria-hidden="true"></i>&nbsp; Favorites</a></li>
+			            <li><a href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a></li>
+	                    <li><a href="#"><i class="fa fa-sign-in fa-fw" aria-hidden="true"></i>&nbsp; Login</a></li>
+			            <li role="separator" class="divider"></li>		   
+						<li><a href="#"><i class="fa fa-sign-out fa-fw goBig" aria-hidden="true" ></i>&nbsp; Log out</a></li>
+					</ul>
+				</li>
+				<li><button type="button" class="login goRight" data-toggle="modal" data-target="#login-modal">Sign In</button></li>
+				<li><button type="button" class="register goRight" data-toggle="modal" data-target="#register-modal">Register</button></li>
+				
+			</ul>
+		</div>
+	</nav>
+
+
+
+	<div class="sidebar" id="sidebar">
+		<div class="category-item"><h4>CATEGORY</h4></div>
+		<!-- <div class="item"><button class="square img11"></button>&nbsp; <div class="goTop">Animals</div></div>
+		<div class="item"><button class="square img22"></button>&nbsp; <div class="goTop">Math</div></div>
+		<div class="item"><button class="square img33"></button>&nbsp; <div class="goTop">Psychology</div></div>
+		<div class="item"><button class="square img44"></button>&nbsp; <div class="goTop">Philosophy</div></div>
+		<div class="item"><button class="square img55"></button>&nbsp; <div class="goTop">Universe</div></div>
+		<div class="item"><button class="square img66"></button>&nbsp; <div class="goTop">Nature</div></div>
+		<div class="item"><button class="square img77"></button>&nbsp; <div class="goTop">Science</div></div> -->
+	</div>
+
+   
+
+	<div class="container-fluid container-small noPadding" id="article-container">
+		
+	</div>	
+
+	<div class="navbarFixed">
+		<div class="box"><a href=""><i class="fa fa-home size text-white" aria-hidden="true"></i></a></div>
+		<div class="box" id="openCategory"><i class="fa fa-window-maximize size text-white" aria-hidden="true"></i></div>
+		<div class="box"><a href=""><i class="fa fa-heart size text-white" aria-hidden="true"></i></a></div>
+		<div class="box"><a href=""><i class="fa fa-user size text-white" aria-hidden="true"></i></a></div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-sm" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Register form</h4>
+	      </div>
+	      <div class="modal-body">
+	        <div class="form-group">
+				<input type="text" class="form-control" placeholder="Username" id="username">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Email" id="email">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" placeholder="Password" id="password">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" placeholder="Retype password" id="password2">
+			</div>	
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary" id="register">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-sm" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Congratulations, proceed with login!</h4>
+	      </div>
+	      <div class="modal-body">
+	        <div class="form-group">
+				<input type="text" class="form-control" placeholder="Username" id="Lusername">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" placeholder="Password" id="Lpassword">
+			</div>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary" id="login">Login</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="category-overflow-mobile displayNone">
+		<!-- <div class="bigBox img1"><span class="goDown">Animals</span></div>
+		<div class="bigBox img2"><span class="goDown">Math</span></div>
+		<div class="bigBox img3"><span class="goDown">Psychology</span></div>
+		<div class="bigBox img4"><span class="goDown">Philosophy</span></div>
+		<div class="bigBox img5"><span class="goDown">Nature</span></div>
+		<div class="bigBox img6"><span class="goDown">Universe</span></div>
+		<div class="bigBox img7"><span class="goDown">Science</span></div> -->
+	</div>
+
+
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="dashboard.js"></script>
+</body>
+</html>

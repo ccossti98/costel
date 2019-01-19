@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+
+
+.displayNone {
+	display: none !important;
+}
+.visibleNone {
+	visibility: hidden;
+}
+.text-white {
+	color: #fff;
+}
+.noPadding {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+
+.nav .dropdown > a.dropdown-toggle {
+	background-color: transparent;
+}
+
+
+
+.navbarFixed{
+	background-color: #242b3f;
+	position: fixed;
+    bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: 40px;
+	visibility: hidden;
+	border-top: 1px solid grey;
+	z-index: 10;
+
+}
+
+.box{
+	width: 25%;
+	float: left;
+	border-top: 1px solid grey;
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+
+}
+
+
+
+@media(max-width: 768px){
+	
+    .navBarColor {
+		height: 40px;
+	}
+	a.navbar-brand{
+		margin-top:5px !important;
+		padding-left:20px !important;
+		font-size: 19px;
+
+	}
+
+	.navbar-header{
+		float: left;
+	}
+
+	.goRight{
+		float: right;
+		
+		 
+
+	}
+
+	.navbar-right{
+		text-align:right;
+		padding-bottom: 10px;
+	}
+
+	button.register{
+		margin-right: 10px;
+		margin-top: 3px;
+	}
+
+	button.login{
+		margin-top: 3px;
+	}
+	
+	
+}
+
+.category-overflow-mobile {
+	display: none;
+	
+}
+@media(max-width: 992px){
+	
+	.navbarFixed{
+		visibility: visible;
+	}
+
+	li.dropdown2{
+		display: none !important;
+	}
+
+	a.navbar-brand{
+		font-size: 24px;
+
+	}
+	.category-overflow-mobile {
+	    position: fixed;
+	    width: 100%;
+	    height:calc(100% - 40px); 
+	    top: 0;
+	    background: red;
+	    display: block;
+	}
+	.sidebar {
+		display: none !important;
+	}
+	
+}
